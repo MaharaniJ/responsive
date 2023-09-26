@@ -1,0 +1,5 @@
+screen bg-gradient-to-r from-violet-500 to-fuchsia-500
+
+ <div className="text-3xl" onClick={() => setOpen(!open)}>
+            <ion-icon name={`${open ? "close" : "menu"} `}></ion-icon>
+          </div>
